@@ -1,0 +1,8 @@
+/cygdrive/c/Users/Bomin/Desktop/P2/starter-files/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Bomin/Desktop/P2/starter-files/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Bomin/Desktop/P2/starter-files/cmake-build-debug/CMakeFiles/Matrix_tests.dir
+/cygdrive/c/Users/Bomin/Desktop/P2/starter-files/cmake-build-debug/CMakeFiles/Matrix_public_test.dir
+/cygdrive/c/Users/Bomin/Desktop/P2/starter-files/cmake-build-debug/CMakeFiles/resize.dir
+/cygdrive/c/Users/Bomin/Desktop/P2/starter-files/cmake-build-debug/CMakeFiles/Image_public_test.dir
+/cygdrive/c/Users/Bomin/Desktop/P2/starter-files/cmake-build-debug/CMakeFiles/Image_tests.dir
+/cygdrive/c/Users/Bomin/Desktop/P2/starter-files/cmake-build-debug/CMakeFiles/processing_public_tests.dir

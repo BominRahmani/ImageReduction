@@ -92,7 +92,6 @@ int* Matrix_at(Matrix* mat, int row, int column) {
     // index would be represented as index = y * Width + x where its (x,y)
     assert(0 <= row && row < mat->height);
     assert(0 <= column && column < mat->width);
-    assert( row * col == mat->width * mat->height); // this might be an incorrect way of checking whether it points to valid matrix
     int index = row * mat->width + column;
     int* ptr = mat[index];
     return ptr;
@@ -178,8 +177,17 @@ int Matrix_column_of_min_value_in_row(const Matrix* mat, int row,
     assert(0 <= row && row < mat->height);
     assert(0 <= column && column < mat->width);
     // assert column_start < column_end
+    // TODO Replace with your implementation!
+    // index would be represented as index = y * Width + x where its (x,y)
+    int index = row * mat->width + column_start;
+    int min = mat[index].data;
+    for(int i = 0; i < column_end; ++i){
+        if(mat[index] < min){
+            min = mat[index]; 
+        }
+        index += 1; //check to see if it stops 1 early or ends 1 late
+    }
 
-  assert(false); // TODO Replace with your implementation!
 }
 
 

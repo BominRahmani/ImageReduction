@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Image_public_test.dir/Image_public_test.cpp.o  -o Image_public_test.exe -Wl,--out-implib,libImage_public_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

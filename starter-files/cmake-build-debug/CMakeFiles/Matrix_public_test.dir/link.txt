@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Matrix_public_test.dir/Matrix_public_test.cpp.o  -o Matrix_public_test.exe -Wl,--out-implib,libMatrix_public_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

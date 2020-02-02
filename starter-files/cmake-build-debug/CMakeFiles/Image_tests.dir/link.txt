@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Image_tests.dir/Image_tests.cpp.o  -o Image_tests.exe -Wl,--out-implib,libImage_tests.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
